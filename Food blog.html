@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <title>Ananya's Food Blog</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(65deg, #8dafbe 20%, #3c7da5 20%, #629fc8 40%, #92c9eb 20%);
+      box-sizing: border-box;
+    }
+    .box {
+      border: 0;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+      width: 30%;
+      max-width: 600px; 
+      padding: 20px;
+      background: #d4b3a2;
+      text-align: center;
+      border-radius: 8px; 
+    }
+
+    h1 {
+             color:#210f07;
+      
+      font-size: 50px;
+      margin-bottom: 15px;
+      
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+    
+    .images {
+      display: flex;
+      justify-content: center;
+      gap: 10px; 
+      flex-wrap: wrap; 
+    }
+
+    .images img {
+      max-width: 100%; 
+      height: auto; 
+      border-radius: 5px; 
+    }
+
+    .images img {
+      width: calc(50% - 10px); 
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #2a1309;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #4c3822;
+      color:rgb(244, 217, 183); 
+    }
+
+    @media (max-width: 768px) {
+      .box {
+        width: 80%; 
+        padding: 15px;
+      }
+
+      h1 {
+        font-size: 1.8rem; 
+      }
+
+      .images img {
+        width: 100%; 
+      }
+    }
+
+    @media (max-width: 480px) {
+      .box {
+        width: 90%; 
+      }
+
+      h1 {
+        font-size: 1.6rem; 
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Food Blog</h1>
+    <div class="images">
+      <img src="https://i.pinimg.com/1200x/3d/ed/ac/3dedacb4626c795e7b2571f25b10aeb2.jpg" alt="Food Blog Image 1"/>
+      <img src="https://i.pinimg.com/1200x/e9/b4/25/e9b425ba18a0ab9f0388339e9e5dba87.jpg" alt="Food Blog Image 2" />
+    </div>
+  <a href="page2.html">
+  <button>Explore</button>
+</a>
+  </div>
+</body>
+</html>
